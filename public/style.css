@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+body {
+  background:
+linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#708090;
+  background-size: 64px 128px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+
+#convertForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#convertField {
+  font-size: 20px;
+}
+
+#convert {
+  background: #A3EDE9;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#convert:hover {
+  animation: glowPulse 1s linear 0s alternate infinite;
+}
+
+#hidden {
+  display: none;
+  background: white;
+  padding: 20px;
+}
+
+#formGap {
+  width: 20px;
+}
+
+@keyframes glowPulse {
+  0% {
+    background: #A3EDE9;
+  }
+  100% {
+    background: #FFFFFF;
+  }
+}
